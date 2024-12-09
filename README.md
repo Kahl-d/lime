@@ -84,11 +84,8 @@ pip install -r requirements.txt
 ```
 Run the entire pipeline:
 python main.py
-
 This will:
 	1.	Train a domain-adaptive model (tabular-trainer.py).
-	<img width="538" alt="image" src="https://github.com/user-attachments/assets/ae863360-60c8-44f7-9a94-9fa124293e7d">
-
 	2.	Generate context-aware perturbations (get-perturbations.py).
 	3.	Calculate similarity weights (calculate-weights.py).
 	4.	Extract and visualize feature importances (calculate-feature-importance.py).
@@ -99,9 +96,6 @@ This will:
 1. Generated Perturbations
 	•	File: data/perturbed_data_point_0.csv
 	•	Verify: Contains realistic perturbations generated using BioBERT.
-
-<img width="538" alt="image" src="https://github.com/user-attachments/assets/0b69ee99-3f3c-4f22-b950-abffc2b78d94">
-
 
 2. Weighted Perturbations
 	•	File: data/weighted_perturbed_data_point_0.csv
