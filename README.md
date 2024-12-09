@@ -42,11 +42,11 @@ This project introduces the following key enhancements:
 ```plaintext
 project/
 │
-├── tabular-trainer.py               # Trains a domain-adapted model
-├── get-perturbations.py             # Generates context-aware perturbations
-├── calculate-weights.py             # Calculates similarity weights for perturbations
-├── calculate-feature-importance.py  # Extracts feature importance using surrogate models
-├── visualize-feature-importance.py  # Visualizes feature importance
+├── tabular-trainer.py               	# Trains a domain-adapted model
+├── get-perturbations.py             	# Generates context-aware perturbations
+├── weights.py             		# Calculates similarity weights for perturbations
+├── feature-importance.py  		# Extracts feature importance using surrogate models
+├── visualize.py  			# Visualizes feature importance
 ├── main.py                          # Main script to run the entire pipeline
 ├── README.md                        # Project documentation
 ├── LICENSE                          # Open-source license
