@@ -68,8 +68,8 @@ project/
 
 1. **Clone the Repository**:
    ```bash
-   git clone <your-github-url>
-   cd <repository-name>
+   git clone [<your-github-url>](https://github.com/Kahl-d/lime.git)
+   cd [<repository-name>](lime)
 
 2. **Install Dependencies**:
 ```
